@@ -26,5 +26,11 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Mision()
+        {
+            return View();
+        }
+
     }
 }
