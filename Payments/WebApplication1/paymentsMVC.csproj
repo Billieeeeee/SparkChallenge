@@ -130,6 +130,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\tblClientesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -222,6 +223,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Mision.cshtml" />
+    <Content Include="Views\tblClientes\Create.cshtml" />
+    <Content Include="Views\tblClientes\Delete.cshtml" />
+    <Content Include="Views\tblClientes\Details.cshtml" />
+    <Content Include="Views\tblClientes\Edit.cshtml" />
+    <Content Include="Views\tblClientes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
